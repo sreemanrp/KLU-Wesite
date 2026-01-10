@@ -1,7 +1,6 @@
-# AI & DS Department Website
+# KL University Website
 
-Minimal official website for the Department of Artificial Intelligence & Data Science,
-KL University.
+Official website for KL University.
 
 ## Tech Stack
 - HTML
