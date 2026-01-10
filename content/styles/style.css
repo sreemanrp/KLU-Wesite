@@ -383,15 +383,19 @@ body {
         flex-direction: column;
     }
 
-    .footer-col:nth-of-type(1) {
+    .footer-brand {
+        order: 0;
+    }
+
+    .footer-col:nth-child(2) {
         order: 1;
     }
 
-    .footer-col:nth-of-type(2) {
+    .footer-col:nth-child(3) {
         order: 2;
     }
 
-    .footer-col:nth-of-type(3) {
+    .footer-col:nth-child(4) {
         order: 3;
     }
 }
