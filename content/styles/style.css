@@ -329,6 +329,29 @@ body {
     display: inline-block;
 }
 
+.footer-socials {
+    grid-column: 1 / 2;
+    display: flex;
+    gap: 22px;
+    margin-top: -40px;
+}
+
+.footer-socials img {
+    width: 22px;
+    height: 22px;
+    opacity: 0.7;
+    transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.footer-socials a:hover img {
+    opacity: 1;
+    transform: translateY(-3px);
+}
+
+.mobile-socials {
+    display: none;
+}
+
 @media (max-width: 900px) {
 
     .close-wrap {
@@ -417,6 +440,10 @@ body {
     .mobile-socials a:hover img {
         opacity: 1;
         transform: translateY(-3px);
+    }
+
+    .footer-socials {
+        display: none;
     }
 }
 
