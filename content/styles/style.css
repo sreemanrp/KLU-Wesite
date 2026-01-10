@@ -383,18 +383,6 @@ body {
         flex-direction: column;
     }
 
-    .footer-col {
-        margin-bottom: 12px;
-    }
-
-    .footer-col h5 {
-        margin-bottom: 16px;
-    }
-
-    .footer-col a {
-        margin-bottom: 12px;
-    }
-
     .footer-brand {
         order: 0;
     }
