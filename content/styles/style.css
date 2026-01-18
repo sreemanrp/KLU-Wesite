@@ -101,7 +101,7 @@ body {
 }
 
 .menu > li > a:hover {
-    color: #9eff63;
+    color: rgba(255, 255, 255, 0.1);
 }
 
 .has-dropdown {
@@ -140,7 +140,7 @@ body {
 }
 
 .dropdown a:hover {
-    background: #f5f5f5;
+    background: rgba(255, 255, 255, 0.1);
 }
 
 .menu .cta {
