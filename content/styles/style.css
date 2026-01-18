@@ -5,7 +5,7 @@ html, body {
 body {
     margin: 0;
     background: rgb(13, 17, 23);
-    color: #ffffff;
+    color: #f4f7f6;
     font-family: "DM Sans", sans-serif;
     -webkit-font-smoothing: antialiased;
 }
@@ -101,7 +101,7 @@ body {
 }
 
 .menu > li > a:hover {
-    color: rgba(255, 255, 255, 0.1);
+    color: #3d444d;
 }
 
 .has-dropdown {
@@ -112,7 +112,7 @@ body {
     position: absolute;
     top: calc(100% + 18px);
     left: 0;
-    background: #ffffff;
+    background: #2a313c;
     border-radius: 14px;
     padding: 12px 0;
     width: max-content;
@@ -135,12 +135,12 @@ body {
     display: block;
     padding: 10px 24px;
     font-size: 16px;
-    color: #111;
+    color: rgba(255, 255, 255, 0.600);
     text-decoration: none;
 }
 
 .dropdown a:hover {
-    background: rgba(255, 255, 255, 0.1);
+    background: #3d444d;
 }
 
 .menu .cta {
@@ -184,7 +184,7 @@ body {
 }
 
 .menu .cta a:hover {
-    color: #073e3e;
+    color: #3d444d;
 }
 
 .menu .cta a:hover::after {
@@ -259,7 +259,7 @@ body {
 }
 
 .footer-brand a:hover {
-    color: #9eff63;
+    color: #3d444d;
 }
 
 .footer-col h5 {
@@ -282,7 +282,7 @@ body {
 }
 
 .footer-col a:hover {
-    color: rgba(255, 255, 255, 0.1);
+    color: #3d444d;
 }
 
 .arrow-link {
@@ -393,7 +393,7 @@ body {
     }
 
     .dropdown a {
-        color: rgba(255,255,255,0.85);
+        color: #2a313c;
     }
 
     .header-row {
